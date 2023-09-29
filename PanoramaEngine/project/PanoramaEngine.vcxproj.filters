@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PANE">
+      <UniqueIdentifier>{A90C8A7C-9543-8B0D-3E30-71102A46070F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PANE\Scene">
+      <UniqueIdentifier>{8694CD3B-724C-0F89-DB53-E8E4C72AAA79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Core.h" />
+    <ClInclude Include="..\src\PANE.h" />
+    <ClInclude Include="..\src\PANE\Scene\Scene.h">
+      <Filter>PANE\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PANE\Scene\SceneManager.h">
+      <Filter>PANE\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\PANE.cpp" />
+    <ClCompile Include="..\src\PANE\Scene\Scene.cpp">
+      <Filter>PANE\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PANE\Scene\SceneManager.cpp">
+      <Filter>PANE\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

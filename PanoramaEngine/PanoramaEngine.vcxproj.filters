@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\PANE\Scene\Scene.cpp" />
+    <ClCompile Include="src\PANE\Scene\SceneManager.cpp" />
+    <ClCompile Include="src\PANE.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\PANE\Scene\Scene.h" />
+    <ClInclude Include="src\PANE\Scene\SceneManager.h" />
+    <ClInclude Include="src\PANE.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\SphereMap.frag" />
+    <None Include="assets\shaders\White.frag" />
+  </ItemGroup>
+</Project>
