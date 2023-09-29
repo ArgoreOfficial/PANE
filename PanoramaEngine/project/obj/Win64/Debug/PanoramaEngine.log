@@ -1,3 +1,7 @@
-﻿  Scene.cpp
+﻿  PANE.cpp
+  Scene.cpp
+  SceneManager.cpp
+  Generating Code...
      Creating library ..\..\bin\PANE\PanoramaEngine.lib and object ..\..\bin\PANE\PanoramaEngine.exp
-  PanoramaEngine.vcxproj -> D:\Projects\Other\PanoramaEngine\bin\PANE\PanoramaEngine.dll
+Scene.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::Draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?Draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) referenced in function "public: void __cdecl PANE::Scene::Draw(class sf::RenderWindow &)" (?Draw@Scene@PANE@@QEAAXAEAVRenderWindow@sf@@@Z)
+..\..\bin\PANE\PanoramaEngine.dll : fatal error LNK1120: 1 unresolved externals

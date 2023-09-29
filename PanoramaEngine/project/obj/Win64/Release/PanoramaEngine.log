@@ -1,3 +1,141 @@
 ﻿  PANE.cpp
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\Scene.h(20,15): warning C4251: 'PANE::Scene::m_texture': class 'sf::Texture' needs to have dll-interface to be used by clients of class 'PANE::Scene'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\external\SFML\include\SFML\Graphics\Sprite.hpp(40,7): message : see declaration of 'sf::Texture'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\SceneManager.h(22,33): warning C4251: 'PANE::SceneManager::m_scenes': class 'std::map<unsigned int,PANE::Scene,std::less<unsigned int>,std::allocator<std::pair<const unsigned int,PANE::Scene>>>' needs to have dll-interface to be used by clients of class 'PANE::SceneManager'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\SceneManager.h(22,8): message : see declaration of 'std::map<unsigned int,PANE::Scene,std::less<unsigned int>,std::allocator<std::pair<const unsigned int,PANE::Scene>>>'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\SceneManager.h(24,14): warning C4251: 'PANE::SceneManager::m_sphereMapShader': class 'sf::Shader' needs to have dll-interface to be used by clients of class 'PANE::SceneManager'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\external\SFML\include\SFML\Graphics\Shader.hpp(52,25): message : see declaration of 'sf::Shader'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE.h(20,20): warning C4251: 'PANE::Game::m_window': class 'sf::RenderWindow' needs to have dll-interface to be used by clients of class 'PANE::Game'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\external\SFML\include\SFML\Graphics\RenderWindow.hpp(44,25): message : see declaration of 'sf::RenderWindow'
+  Scene.cpp
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\Scene.h(20,15): warning C4251: 'PANE::Scene::m_texture': class 'sf::Texture' needs to have dll-interface to be used by clients of class 'PANE::Scene'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\external\SFML\include\SFML\Graphics\Sprite.hpp(40,7): message : see declaration of 'sf::Texture'
+  SceneManager.cpp
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\Scene.h(20,15): warning C4251: 'PANE::Scene::m_texture': class 'sf::Texture' needs to have dll-interface to be used by clients of class 'PANE::Scene'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\external\SFML\include\SFML\Graphics\Sprite.hpp(40,7): message : see declaration of 'sf::Texture'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\SceneManager.h(22,33): warning C4251: 'PANE::SceneManager::m_scenes': class 'std::map<unsigned int,PANE::Scene,std::less<unsigned int>,std::allocator<std::pair<const unsigned int,PANE::Scene>>>' needs to have dll-interface to be used by clients of class 'PANE::SceneManager'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\SceneManager.h(22,8): message : see declaration of 'std::map<unsigned int,PANE::Scene,std::less<unsigned int>,std::allocator<std::pair<const unsigned int,PANE::Scene>>>'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\src\PANE\Scene\SceneManager.h(24,14): warning C4251: 'PANE::SceneManager::m_sphereMapShader': class 'sf::Shader' needs to have dll-interface to be used by clients of class 'PANE::SceneManager'
+D:\Projects\Other\PanoramaEngine\PanoramaEngine\external\SFML\include\SFML\Graphics\Shader.hpp(52,25): message : see declaration of 'sf::Shader'
+  Generating Code...
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Transformable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Transformable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Sprite.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Sprite.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(RenderStates.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(RenderStates.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Image.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Image.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Transform.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Transform.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(Color.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(Color.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(View.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(View.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-graphics-s-d.lib(VertexBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-graphics-s-d.lib(VertexBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-system-s-d.lib(String.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-system-s-d.lib(String.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-system-s-d.lib(Err.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-system-s-d.lib(Err.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(Window.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(Window.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(GlContext.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(GlContext.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(CursorImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(CursorImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(SensorManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(SensorManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(WglContext.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(WglContext.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(Joystick.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(Joystick.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in PANE.obj
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in PANE.obj
      Creating library ..\..\bin\PANE\PanoramaEngine.lib and object ..\..\bin\PANE\PanoramaEngine.exp
-  PanoramaEngine.vcxproj -> D:\Projects\Other\PanoramaEngine\bin\PANE\PanoramaEngine.dll
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+Scene.obj : error LNK2019: unresolved external symbol "public: void __cdecl sf::RenderTarget::Draw(class sf::Drawable const &,class sf::RenderStates const &)" (?Draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) referenced in function "public: void __cdecl PANE::Scene::Draw(class sf::RenderWindow &)" (?Draw@Scene@PANE@@QEAAXAEAVRenderWindow@sf@@@Z)
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(GlContext.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(Joystick.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2001: unresolved external symbol __imp__calloc_dbg
+sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2019: unresolved external symbol __imp__CrtDbgReport referenced in function "public: virtual void __cdecl sf::priv::WindowImplWin32::setIcon(unsigned int,unsigned int,unsigned char const *)" (?setIcon@WindowImplWin32@priv@sf@@UEAAXIIPEBE@Z)
+sfml-window-s-d.lib(VulkanImplWin32.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(GlContext.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(VideoMode.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(WindowBase.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(Glsl.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+..\..\bin\PANE\PanoramaEngine.dll : fatal error LNK1120: 4 unresolved externals

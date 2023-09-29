@@ -1,10 +1,8 @@
 language "C++"
 filter "configurations:Debug"
-        defines {"NDebug"}
         symbols "On"
 
 filter "configurations:Release"
-    defines {"NDebug"}
     symbols "Off"
     optimize "On"
 
